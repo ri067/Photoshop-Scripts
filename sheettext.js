@@ -52,12 +52,12 @@ for (var i = 0; i < csvData.length; i++) {
     var row = csvData[i];
     k=0;
     for (var j in t){
-        alert(row[k]);
+        //alert(row[k]);
         var layer = doc.layers[j];
         layer.textItem.contents = row[k];
         k++;
         }
-    var saveFile = File('C:/Users/amrit/Desktop/Bo/'+row[0]+'.png');
+    var saveFile = File('C:/Users/amrit/Desktop/B/'+row[0]+'.png');
     doc.exportDocument(saveFile, ExportType.SAVEFORWEB, pngOpts);
 }
         //layer.textItem.contents = row[k];
