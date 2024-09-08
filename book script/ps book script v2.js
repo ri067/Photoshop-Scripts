@@ -7,7 +7,6 @@ d=0;
 w_i=activeDocument.width;
 h_i=activeDocument.height;
 
-
 while (d<n) {
     docname.push(String(documents[d]));
     
