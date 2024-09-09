@@ -57,7 +57,7 @@ for (var i = 0; i < csvData.length; i++) {
         layer.textItem.contents = row[k];
         k++;
         }
-    var saveFile = File('C:/Users/amrit/Desktop/B/'+row[0]+'.png');
+    var saveFile = File('C:/Users/amrit/Desktop/A/'+row[0]+'.png');
     doc.exportDocument(saveFile, ExportType.SAVEFORWEB, pngOpts);
 }
         //layer.textItem.contents = row[k];
